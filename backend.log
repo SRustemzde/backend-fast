@@ -1,0 +1,1229 @@
+INFO:     Will watch for changes in these directories: ['/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [60931] using WatchFiles
+INFO:     Started server process [60934]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Application startup...
+Successfully connected to MongoDB!
+Beanie initialized with database: netflix_clone_db and models: ['UserDocument', 'CategoryDocument', 'ContentDocument', 'WatchlistItemDocument', 'WatchHistoryItemDocument']
+INFO:     127.0.0.1:51355 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51368 - "GET /api/v1/content/?limit=3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51394 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51394 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51394 - "OPTIONS /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "OPTIONS /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51393 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51396 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51414 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51433 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51431 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51443 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51448 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51443 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51450 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     127.0.0.1:51473 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51475 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51480 - "POST /api/v1/auth/register HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:51482 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51482 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51482 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51484 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51486 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51482 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51542 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51542 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51544 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51544 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51564 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51564 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51564 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51570 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51573 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51564 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51574 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51574 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51574 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51574 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51574 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51587 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51589 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51593 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51595 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51589 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51593 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51595 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51589 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51597 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:51612 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:51612 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51612 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51616 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51612 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51618 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51628 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51628 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51632 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51634 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51628 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51749 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51749 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51749 - "OPTIONS /api/v1/content/682dc5daaab96d726d8c5833 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51751 - "OPTIONS /api/v1/content/682dc5daaab96d726d8c5833 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51749 - "GET /api/v1/content/682dc5daaab96d726d8c5833 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51751 - "OPTIONS /api/v1/content/?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51749 - "GET /api/v1/content/682dc5daaab96d726d8c5833 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51763 - "GET /api/v1/content/?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51749 - "GET /api/v1/content/?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51749 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51763 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51763 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51763 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51767 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51767 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51769 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51769 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51794 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51794 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51865 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51865 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51867 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51903 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51922 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51922 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51922 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51924 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51924 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51924 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51924 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51930 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 39, in update_my_profile
+    updated_user = await crud_user.update_user_profile(user=current_user_doc, profile_in=profile_in)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/crud/user.py", line 57, in update_user_profile
+    await user.update(Set(update_data))
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/actions.py", line 239, in wrapper
+    result = await f(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/utils/state.py", line 89, in wrapper
+    result = await f(self, *args, **kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/documents.py", line 731, in update
+    result = await self.find_one(find_query).update(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/queries/update.py", line 346, in __await__
+    update_result = yield from self._update().__await__()
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/queries/update.py", line 315, in _update
+    result = await self.document_model.get_motor_collection().find_one_and_update(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/collection.py", line 3599, in find_one_and_update
+    return self._find_and_modify(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/collection.py", line 3260, in _find_and_modify
+    return self._database.client._retryable_write(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/mongo_client.py", line 2061, in _retryable_write
+    return self._retry_with_session(retryable, func, s, bulk, operation, operation_id)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/mongo_client.py", line 1947, in _retry_with_session
+    return self._retry_internal(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/_csot.py", line 119, in csot_wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/mongo_client.py", line 1982, in _retry_internal
+    return _ClientConnectionRetryable(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/mongo_client.py", line 2730, in run
+    return self._read() if self._is_read else self._write()
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/mongo_client.py", line 2862, in _write
+    return self._func(self._session, conn, self._retryable)  # type: ignore
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/collection.py", line 3246, in _find_and_modify_helper
+    out = self._command(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/collection.py", line 621, in _command
+    return conn.command(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/helpers.py", line 47, in inner
+    return func(*args, **kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/pool.py", line 414, in command
+    return command(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/network.py", line 212, in command
+    helpers_shared._check_command_response(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/helpers_shared.py", line 250, in _check_command_response
+    raise OperationFailure(errmsg, code, response, max_wire_version)
+pymongo.errors.OperationFailure: Plan executor error during findAndModify :: caused by :: Cannot create field 'name' in element {full_name: "Murad"}, full error: {'ok': 0.0, 'errmsg': 'Plan executor error during findAndModify :: caused by :: Cannot create field \'name\' in element {full_name: "Murad"}', 'code': 28, 'codeName': 'PathNotViable'}
+INFO:     127.0.0.1:51939 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51942 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51939 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51944 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51944 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51944 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51944 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/crud/user.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [60934]
+INFO:     Started server process [61314]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crud/user.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61314]
+INFO:     Started server process [61317]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/crud/user.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61317]
+INFO:     Started server process [61318]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/schemas/user.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61318]
+INFO:     Started server process [61320]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/models/user.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61320]
+INFO:     Started server process [61321]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Application startup...
+Successfully connected to MongoDB!
+Beanie initialized with database: netflix_clone_db and models: ['UserDocument', 'CategoryDocument', 'ContentDocument', 'WatchlistItemDocument', 'WatchHistoryItemDocument']
+INFO:     127.0.0.1:52108 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 4 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863e128747b885b01a10f08'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+profile
+  Input should be a valid dictionary or instance of UserProfileSchema [type=model_type, input_value=UserProfile(profile_pictu... country=None, bio=None), input_type=UserProfile]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+notification_preferences
+  Input should be a valid dictionary or instance of NotificationPreferencesSchema [type=model_type, input_value=NotificationPreferences(e... marketing_emails=False), input_type=NotificationPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+playback_preferences
+  Input should be a valid dictionary or instance of PlaybackPreferencesSchema [type=model_type, input_value=PlaybackPreferences(autop..._subtitle_language=None), input_type=PlaybackPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:52234 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52236 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52232 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52234 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52236 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52232 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52246 - "OPTIONS /api/v1/auth/register HTTP/1.1" 200 OK
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     127.0.0.1:52246 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:52246 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52246 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52248 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52246 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52252 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52265 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52267 - "OPTIONS /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52265 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52267 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52267 - "GET /api/v1/users/me/watch-history HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/models/user.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [61321]
+Process SpawnProcess-7:
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/main.py", line 8, in <module>
+    from app.models import get_document_models
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/__init__.py", line 6, in <module>
+    from .user import UserDocument
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/user.py", line 37, in <module>
+    class UserDocument(Document):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 112, in __new__
+    private_attributes = inspect_namespace(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 434, in inspect_namespace
+    raise NameError(
+NameError: Fields must not use names with leading underscores; e.g., use 'UserDocument__v' instead of '_UserDocument__v'.
+WARNING:  WatchFiles detected changes in 'app/schemas/user.py'. Reloading...
+Process SpawnProcess-8:
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/main.py", line 8, in <module>
+    from app.models import get_document_models
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/__init__.py", line 6, in <module>
+    from .user import UserDocument
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/user.py", line 37, in <module>
+    class UserDocument(Document):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 112, in __new__
+    private_attributes = inspect_namespace(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 434, in inspect_namespace
+    raise NameError(
+NameError: Fields must not use names with leading underscores; e.g., use 'UserDocument__v' instead of '_UserDocument__v'.
+WARNING:  WatchFiles detected changes in 'app/crud/user.py'. Reloading...
+Process SpawnProcess-9:
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/main.py", line 8, in <module>
+    from app.models import get_document_models
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/__init__.py", line 6, in <module>
+    from .user import UserDocument
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/user.py", line 37, in <module>
+    class UserDocument(Document):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 112, in __new__
+    private_attributes = inspect_namespace(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 434, in inspect_namespace
+    raise NameError(
+NameError: Fields must not use names with leading underscores; e.g., use 'UserDocument__v' instead of '_UserDocument__v'.
+WARNING:  WatchFiles detected changes in 'app/routers/auth.py'. Reloading...
+Process SpawnProcess-10:
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 70, in serve
+    await self._serve(sockets)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/server.py", line 77, in _serve
+    config.load()
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/config.py", line 435, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/main.py", line 8, in <module>
+    from app.models import get_document_models
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/__init__.py", line 6, in <module>
+    from .user import UserDocument
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/models/user.py", line 37, in <module>
+    class UserDocument(Document):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 112, in __new__
+    private_attributes = inspect_namespace(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/_internal/_model_construction.py", line 434, in inspect_namespace
+    raise NameError(
+NameError: Fields must not use names with leading underscores; e.g., use 'UserDocument__v' instead of '_UserDocument__v'.
+WARNING:  WatchFiles detected changes in 'app/models/user.py'. Reloading...
+INFO:     Started server process [62752]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Application startup...
+Successfully connected to MongoDB!
+Beanie initialized with database: netflix_clone_db and models: ['UserDocument', 'CategoryDocument', 'ContentDocument', 'WatchlistItemDocument', 'WatchHistoryItemDocument']
+INFO:     127.0.0.1:52696 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52697 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52700 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52701 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52705 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52707 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53156 - "POST /auth/register HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53221 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53223 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53225 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53227 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53229 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53231 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53221 - "OPTIONS /api/v1/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53225 - "OPTIONS /api/v1/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53223 - "OPTIONS /api/v1/auth/register HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/schemas/user.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [62752]
+INFO:     Started server process [62753]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Application startup...
+Successfully connected to MongoDB!
+Beanie initialized with database: netflix_clone_db and models: ['UserDocument', 'CategoryDocument', 'ContentDocument', 'WatchlistItemDocument', 'WatchHistoryItemDocument']
+INFO:     127.0.0.1:53261 - "POST /api/v1/auth/register HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:53355 - "POST /api/v1/auth/register HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:53414 - "POST /api/v1/auth/register HTTP/1.1" 422 Unprocessable Entity
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     127.0.0.1:53908 - "POST /api/v1/auth/register HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/auth.py", line 54, in register_user
+    __v=created_user.__v,
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 989, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'UserDocument' object has no attribute '__v'
+INFO:     127.0.0.1:53948 - "POST /api/v1/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:53962 - "POST /api/v1/auth/login HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/auth.py", line 81, in login_for_access_token
+    await user.update({"last_login": datetime.utcnow()})
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/actions.py", line 239, in wrapper
+    result = await f(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/utils/state.py", line 89, in wrapper
+    result = await f(self, *args, **kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/documents.py", line 731, in update
+    result = await self.find_one(find_query).update(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/queries/update.py", line 346, in __await__
+    update_result = yield from self._update().__await__()
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/beanie/odm/queries/update.py", line 315, in _update
+    result = await self.document_model.get_motor_collection().find_one_and_update(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/synchronous/collection.py", line 3594, in find_one_and_update
+    common.validate_ok_for_update(update)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pymongo/common.py", line 629, in validate_ok_for_update
+    raise ValueError("update only works with $ operators")
+ValueError: update only works with $ operators
+INFO:     127.0.0.1:53972 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53974 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53970 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53972 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53974 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53976 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53976 - "GET /api/v1/users/me/profile HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:53974 - "GET /api/v1/users/me/profile HTTP/1.1" 401 Unauthorized
+WARNING:  WatchFiles detected changes in 'app/routers/auth.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [62753]
+INFO:     Started server process [62808]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+Application startup...
+Successfully connected to MongoDB!
+Beanie initialized with database: netflix_clone_db and models: ['UserDocument', 'CategoryDocument', 'ContentDocument', 'WatchlistItemDocument', 'WatchHistoryItemDocument']
+INFO:     127.0.0.1:54069 - "POST /api/v1/auth/register HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/auth.py", line 39, in register_user
+    return UserPublic(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for UserPublic
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:54081 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54081 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54085 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54081 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54088 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54088 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54088 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54098 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863f2821d6bfcb54dc129df'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:54108 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54107 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54108 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54107 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54110 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54114 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54223 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54234 - "OPTIONS /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54234 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863f2821d6bfcb54dc129df'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:54618 - "GET /api/v1/users/me/profile HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:54747 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54841 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54978 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54981 - "OPTIONS /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54979 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54978 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54979 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54981 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54981 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863f2821d6bfcb54dc129df'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:54983 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863f2821d6bfcb54dc129df'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:54987 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863f2821d6bfcb54dc129df'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:54998 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54996 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54998 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54996 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55002 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863f2821d6bfcb54dc129df'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:55033 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55032 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55033 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55032 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55032 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55033 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55033 - "OPTIONS /api/v1/content/682dc5daaab96d726d8c582c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55032 - "OPTIONS /api/v1/content/682dc5daaab96d726d8c582c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "GET /api/v1/content/682dc5daaab96d726d8c582c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55032 - "OPTIONS /api/v1/content/?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "GET /api/v1/content/682dc5daaab96d726d8c582c HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55033 - "GET /api/v1/content/?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55037 - "GET /api/v1/content/?limit=20 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55045 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55045 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55142 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "PUT /api/v1/users/me/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/app/routers/users_profile.py", line 40, in update_my_profile
+    return UserPublic.model_validate(updated_user) # Pydantic v2'de .from_orm yerine
+  File "/Users/suleymanrustemzade/Desktop/netflix-clone/backend_fastapi/venv/lib/python3.9/site-packages/pydantic/main.py", line 703, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for UserPublic
+id
+  Input should be a valid string [type=string_type, input_value=ObjectId('6863f2821d6bfcb54dc129df'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+preferences
+  Input should be a valid dictionary or instance of UserPreferencesSchema [type=model_type, input_value=UserPreferences(language=...], maturity_rating='PG'), input_type=UserPreferences]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+security
+  Input should be a valid dictionary or instance of UserSecuritySchema [type=model_type, input_value=UserSecurity(two_factor_e...False, login_attempts=0), input_type=UserSecurity]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+INFO:     127.0.0.1:55156 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55155 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55156 - "GET /api/v1/users/me/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55155 - "GET /api/v1/content/?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55155 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55156 - "OPTIONS /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55158 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55156 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55156 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55158 - "GET /api/v1/content/?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55158 - "OPTIONS /api/v1/content/682ef7820d0bbb521a2e2775 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55156 - "GET /api/v1/content/682ef7820d0bbb521a2e2775 HTTP/1.1" 200 OK
