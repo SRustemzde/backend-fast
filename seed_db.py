@@ -259,8 +259,8 @@ async def create_default_admin_user():
 async def main_seed():
     mongo_client = None # client'ı dışarıda tanımla, FastAPI'dekiyle karışmasın
     try:
-        print(f"Attempting to connect to MongoDB: {settings.MONGO_CONNECTION_STRING}")
-        mongo_client = AsyncIOMotorClient(settings.MONGO_CONNECTION_STRING)
+        print(f"Attempting to connect to MongoDB: {settings.MONGO_URI}")
+        mongo_client = AsyncIOMotorClient(settings.MONGO_URI)
         # Bağlantıyı test et
         await mongo_client.admin.command('ping') 
         print("Successfully connected to MongoDB for seeding!")

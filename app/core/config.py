@@ -6,11 +6,7 @@ from typing import Optional # Optional import edildi
 
 class Settings(BaseSettings):
     # MongoDB Settings
-    MONGO_INITDB_ROOT_USERNAME: Optional[str] = None
-    MONGO_INITDB_ROOT_PASSWORD: Optional[str] = None
-    MONGO_HOST: str = "localhost"
-    MONGO_PORT: int = 27017
-    MONGO_DB_NAME: str = "netflix_clone_db"
+    MONGO_URI: str = "mongodb://localhost:27017/netflix_clone_db"
 
     # JWT Settings
     SECRET_KEY: str = "a_very_secret_key_that_should_be_in_env_and_long" # Varsayılan değer
@@ -22,17 +18,19 @@ class Settings(BaseSettings):
     ADMIN_PASSWORD: Optional[str] = None
 
     @property
-    def MONGO_CONNECTION_STRING(self) -> str:
-        if self.MONGO_INITDB_ROOT_USERNAME and self.MONGO_INITDB_ROOT_PASSWORD:
-            # authSource=admin genellikle root kullanıcıları için gereklidir.
-            # Eğer uygulamanız için özel bir kullanıcı oluşturduysanız ve o kullanıcı
-            # kendi veritabanında (MONGO_DB_NAME) tanımlıysa, authSource'u o veritabanı yapabilir
-            # veya hiç belirtmeyebilirsiniz (MongoDB sürücüsü genellikle doğru olanı bulur).
-            return (
-                f"mongodb://{self.MONGO_INITDB_ROOT_USERNAME}:{self.MONGO_INITDB_ROOT_PASSWORD}"
-                f"@{self.MONGO_HOST}:{self.MONGO_PORT}/{self.MONGO_DB_NAME}?authSource=admin"
-            )
-        return f"mongodb://{self.MONGO_HOST}:{self.MONGO_PORT}/{self.MONGO_DB_NAME}"
+    def MONGO_DB_NAME(self) -> str:
+        """Extract database name from MONGO_URI"""
+        try:
+            # Parse database name from URI
+            if '/' in self.MONGO_URI:
+                db_part = self.MONGO_URI.split('/')[-1]
+                # Remove query parameters if any
+                if '?' in db_part:
+                    db_part = db_part.split('?')[0]
+                return db_part or "netflix_clone_db"
+            return "netflix_clone_db"
+        except:
+            return "netflix_clone_db"
 
     # .env dosyasını okumak için model_config ayarı
     # extra='ignore' bilinmeyen alanları yoksayar

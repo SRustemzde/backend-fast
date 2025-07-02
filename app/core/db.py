@@ -15,7 +15,7 @@ async def init_db(document_models: List[Type[BaseModel]]):
     Initializes the Beanie ODM with the MongoDB client and document models.
     This should be called on application startup.
     """
-    client = AsyncIOMotorClient(settings.MONGO_CONNECTION_STRING)
+    client = AsyncIOMotorClient(settings.MONGO_URI)
     
     # Veritabanı bağlantısını test et (opsiyonel ama iyi bir pratik)
     try:
