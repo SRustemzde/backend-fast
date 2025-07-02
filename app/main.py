@@ -39,6 +39,7 @@ app = FastAPI(
 origins = [
     "http://localhost:3000",  # React uygulamasının varsayılan portu
     "http://localhost:3001",  # Farklı bir portta çalışıyorsa
+    "https://backend-fast-uat2.onrender.com",  # Render backend URL'i
     # "https://your-frontend-domain.com", # Üretim ortamı için
 ]
 
