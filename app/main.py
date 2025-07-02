@@ -33,22 +33,12 @@ app = FastAPI(
     lifespan=lifespan # lifespan olay yöneticisini uygulamaya bağla
 )
 
-# CORS Middleware Ayarları
-# Frontend'inizin çalıştığı adres(ler). Geliştirme için localhost:3000 yaygındır.
-# Üretimde kendi domain adınızı eklemelisiniz.
-origins = [
-    "http://localhost:3000",  # React uygulamasının varsayılan portu
-    "http://localhost:3001",  # Farklı bir portta çalışıyorsa
-    "https://your-frontend-domain.com",  # Frontend deploy edildiğinde buraya ekle
-    "*",  # Geliştirme aşamasında tüm origin'lere izin ver
-]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,  # İzin verilen kaynaklar (frontend domainleri)
-    allow_credentials=True, # Cookie tabanlı kimlik doğrulama için (eğer kullanılacaksa)
-    allow_methods=["*"],    # İzin verilen HTTP metodları (GET, POST, PUT, DELETE vb.)
-    allow_headers=["*"],    # İzin verilen HTTP başlıkları
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
 )
 
 
