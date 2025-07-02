@@ -40,7 +40,7 @@ origins = [
     "http://localhost:3000",  # React uygulamasının varsayılan portu
     "http://localhost:3001",  # Farklı bir portta çalışıyorsa
     "https://your-frontend-domain.com",  # Frontend deploy edildiğinde buraya ekle
-    # "https://backend-fast-uat2.onrender.com",  # Bu backend URL'i, origins'e eklenmemeli
+    "*",  # Geliştirme aşamasında tüm origin'lere izin ver
 ]
 
 app.add_middleware(
