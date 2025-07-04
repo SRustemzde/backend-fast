@@ -3,6 +3,7 @@
 from fastapi import FastAPI, APIRouter # APIRouter import edildi
 from fastapi.middleware.cors import CORSMiddleware # CORS için import edildi
 from contextlib import asynccontextmanager
+import os
 
 from app.core.db import init_db
 from app.models import get_document_models
@@ -33,9 +34,13 @@ app = FastAPI(
     lifespan=lifespan # lifespan olay yöneticisini uygulamaya bağla
 )
 
+# CORS origins'i environment variable'dan al
+cors_origins = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
+allowed_origins = [origin.strip() for origin in cors_origins.split(",") if origin.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
