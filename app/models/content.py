@@ -12,7 +12,7 @@ class ContentDocument(Document):
     source_id: Optional[int] = None # dummyData'daki orijinal id (örn: homeData içindeki id)
     source_name: Optional[str] = None # dummyData'daki kaynak adı (örn: "homeData", "trending")
     
-    title: Indexed(str) # 'name' alanı dummyData'da
+    title: str # 'name' alanı dummyData'da
     description: Optional[str] = None # 'desc' alanı dummyData'da
     release_date: Optional[str] = None # 'date' alanı dummyData'da (string olarak tuttuk, datetime'a çevrilebilir)
     duration: Optional[str] = None # 'time' alanı dummyData'da
@@ -49,23 +49,9 @@ class ContentDocument(Document):
     class Settings:
         name = "contents"
         indexes = [
-            # Başlık ve açıklama üzerinde metin araması için text indeksi
-            IndexModel(
-                [
-                    ("title", TEXT),
-                    ("description", TEXT),
-                    # İsteğe bağlı: ("starring", TEXT), ("tags", TEXT)
-                ],
-                name="content_text_search_idx",
-                default_language="english", # Arama dilini belirtmek iyi bir pratiktir
-                weights={"title": 10, "description": 5} # Başlığa daha fazla ağırlık ver
-            ),
-            # Diğer sık kullanılan alanlar için indeksler
-            IndexModel([("rating", -1)], name="rating_desc_idx"),
-            IndexModel([("release_date", -1)], name="release_date_desc_idx"),
+            # Minimal indexes for now
             IndexModel([("content_type", 1)], name="content_type_idx"),
-            IndexModel([("source_name", 1), ("source_id", 1)], name="source_details_idx", unique=False), # unique=False olabilir
-            IndexModel([("categories.id", 1)], name="categories_id_idx", sparse=True) # Eğer Link kullanıyorsak bu şekilde ID'ye göre index
+            IndexModel([("rating", -1)], name="rating_desc_idx")
         ]
 
     def __repr__(self) -> str:
