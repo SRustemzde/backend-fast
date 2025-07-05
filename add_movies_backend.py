@@ -18,9 +18,15 @@ from app.models.content import ContentDocument
 from app.models.category import CategoryDocument
 from app.crud.content import create_content
 from app.schemas.content import ContentCreate
+from dotenv import load_dotenv
 
-# MongoDB Connection
-MONGODB_URI = "mongodb://localhost:27017/netflix-clone"
+# Load environment variables
+load_dotenv()
+
+# MongoDB Connection - .env dosyasından al
+MONGODB_URI = os.getenv("MONGO_URI")
+if not MONGODB_URI:
+    raise ValueError("MONGO_URI environment variable not found!")
 
 # 50 High-Quality Movie Data (from JavaScript script)
 movies_data = [
@@ -331,7 +337,13 @@ async def init_database():
     """Initialize database connection and models"""
     try:
         client = motor.motor_asyncio.AsyncIOMotorClient(MONGODB_URI)
-        database = client.get_database("netflix-clone")
+        # Database name'i URI'dan extract et
+    if "/" in MONGODB_URI:
+        db_name = MONGODB_URI.split("/")[-1].split("?")[0]
+    else:
+        db_name = "netflix_clone_db"
+    
+    database = client.get_database(db_name)
         
         # Initialize Beanie with models
         await init_beanie(

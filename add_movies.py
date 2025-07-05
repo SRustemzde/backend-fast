@@ -6,10 +6,17 @@ Adds 50 high-quality movies to the database with trending and featured flags
 
 import pymongo
 import random
+import os
 from datetime import datetime
+from dotenv import load_dotenv
 
-# MongoDB Connection
-MONGODB_URI = "mongodb://localhost:27017/netflix-clone"
+# Load environment variables
+load_dotenv()
+
+# MongoDB Connection - .env dosyasından al
+MONGODB_URI = os.getenv("MONGO_URI")
+if not MONGODB_URI:
+    raise ValueError("MONGO_URI environment variable not found!")
 
 # 50 High-Quality Movie Data
 movies = [
@@ -314,7 +321,13 @@ def connect_to_database():
     """Connect to MongoDB"""
     try:
         client = pymongo.MongoClient(MONGODB_URI)
-        db = client['netflix-clone']
+        # Database name'i URI'dan extract et
+        if "/" in MONGODB_URI:
+            db_name = MONGODB_URI.split("/")[-1].split("?")[0]
+        else:
+            db_name = "netflix_clone_db"
+        
+        db = client[db_name]
         # Test the connection
         client.admin.command('ping')
         print("✅ Connected to MongoDB successfully!")
